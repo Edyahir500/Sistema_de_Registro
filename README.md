@@ -76,3 +76,10 @@ Permite observar los cambios entre codigo anterior y posterior antes de agregar 
 
 ``` git diff ``` 
 
+# Git restore #
+
+Permite regresar a un commit anterior (restauración).
+Ej. Al no ser aprobados por el encargado los commit ingresados por el programador pueden ser restaurados y volver al commit correcto, donde el código esta aprobado.
+
+```git restore --source id```
+
