@@ -46,7 +46,8 @@ Formatear la visualización de las informaciones del commit, este a su vez trae 
 
 ``` git log --pretty="format:%h %s" ``` 
 
+# Git pull #
 
-
+Sirve para bajar los cambios realizados en el repositorio remoto al repositorio local
 
 
