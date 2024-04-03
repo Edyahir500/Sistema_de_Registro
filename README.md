@@ -48,8 +48,26 @@ Formatear la visualización de las informaciones del commit, este a su vez trae 
 
 # Git pull #
 
-Sirve para bajar los cambios realizados en el repositorio remoto al repositorio local
+Bajar los cambios realizados en el repositorio remoto al repositorio local
 
-Hola
+``` git pull" ``` 
+
+# Git add #
+
+Agregar las nuevas modificaciones realizadas en el código al repositorio local.
+
+``` git add ." ``` 
+
+# Git commit #
+
+Almacenar los cambios que ha realizado en el repositorio local.
+
+``` git commit -m "name" ``` 
+
+# Git push #
+
+Enviar los cambios realizados en el repositorio local al repositorio remoto.
+
+``` git push" ``` 
 
 
