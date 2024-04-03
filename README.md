@@ -70,4 +70,7 @@ Enviar los cambios realizados en el repositorio local al repositorio remoto.
 
 ``` git push" ``` 
 
+# Git diff #
+
+Permite observar los cambios entre codigo anterior y posterior a un commit  
 
