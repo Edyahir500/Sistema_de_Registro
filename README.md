@@ -83,14 +83,3 @@ Ej. Al no ser aprobados por el encargado los commit ingresados por el programado
 
 ```git restore --source id```
 
-# Git switch #
-
-Permite cambiar de rama y ademas agregar un rama nueva, con los siguientes comandos
-
-```git switch -c name```
-
-```git switch name ```
-
-Permite desplzarte a la rama master
-```git switch - ```
-
