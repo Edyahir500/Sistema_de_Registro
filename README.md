@@ -112,6 +112,8 @@ Muestra las ramas creadas y te posiciona en ellas.
 Comando que fusiona ramas entre si, reflejandose en la rama principal.
 Desde la rama principal (main) se realiza la fusión con las ramas hijas, el comando es:
 
+Al fusionar las ramas, el hash del commit sin fusionar cambia en el ultimo caracter
+
 ```git merge name-rama-hija```
 
 ## Ejemplo 1: ##
