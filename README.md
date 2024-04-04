@@ -128,4 +128,16 @@ Siguiendo los siguientes pasos:
 5. Enviar cambios al repositorio remoto
     ```git push```
 
+Ejemplo 2:
+Estás haciendo un curso en Alura y te gustaría dividir el código del proyecto por aulas, para organizarse mejor, no perder el código antíguo después de una refactorización y conseguir revisar tu evolución. ¿Cómo puedes hacer eso?
 
+1. Agregar un commit para cada aula
+```git commit -m name```
+
+2. Revisar evolución del código por medio de git diff entre commits
+```git diff commitA commitB```
+
+Solución real sin complicaciones por commit
+
+1. Agregar una rama para cada aula del curso
+```git checkout -b name ```
