@@ -107,7 +107,14 @@ Muestra las ramas creadas y te posiciona en ellas.
 
 ```git branch ``` 
 
-## Ejemplo: ##
+## Git merge  ##
+
+Comando que fusiona ramas entre si, reflejandose en la rama principal.
+Desde la rama principal (main) se realiza la fusión con las ramas hijas, el comando es:
+
+```git merge name-rama-hija```
+
+## Ejemplo 1: ##
 
 Una persona que actúa como desarrolladora front-end concluyó importantes implementaciones en el desarrollo del proyecto en el cual está trabajando y necesita verificar los cambios realizados, agregarlos en su repositorio local, guardarlos y después enviar al repositorio remoto utilizando Git. Según ese contexto, ¿qué comandos de Git puede usar para ejecutar estas acciones?
 
@@ -128,7 +135,7 @@ Siguiendo los siguientes pasos:
 5. Enviar cambios al repositorio remoto
     ```git push```
 
-Ejemplo 2:
+## Ejemplo 2: ##
 Estás haciendo un curso en Alura y te gustaría dividir el código del proyecto por aulas, para organizarse mejor, no perder el código antíguo después de una refactorización y conseguir revisar tu evolución. ¿Cómo puedes hacer eso?
 
 1. Agregar un commit para cada aula
