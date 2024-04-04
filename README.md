@@ -8,6 +8,19 @@ Para ejecutar el sistema, debes poner:
 No existe regla especifica para hacer commits, pero se recomienda usar el imperativo al comienzo de los commits.
 Sin embargo cada empresa puede hacer uso de una sintaxix estándar.
 
+## Git init ##
+
+Iniciar repositorio de manera local.
+
+```git init ```
+
+Cambiar de rama master a rama main (por defecto de github)
+
+``` git branch -M main```
+
+Vincular el repositorio local con el remoto
+```git remote -u origin main```
+
 ## Git clone ##
 
 El comando git clone es usado para seleccionar un repositorio existente y crear un clon o una copia de él en un repositorio local.
