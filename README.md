@@ -95,6 +95,18 @@ Permite desplzarte a la rama master
 
 ```git switch - ```
 
+## Git checkout ##
+
+Comando a nivel de documento, commit y rama, cuenta con varias funciones, como crear rama y cambiar entre ellas, así como eliminarlas
+
+```git checkout -b name ```
+
+## Git branch ##
+
+Muestra las ramas creadas y te posiciona en ellas.
+
+```git branch ``` 
+
 ## Ejemplo: ##
 
 Una persona que actúa como desarrolladora front-end concluyó importantes implementaciones en el desarrollo del proyecto en el cual está trabajando y necesita verificar los cambios realizados, agregarlos en su repositorio local, guardarlos y después enviar al repositorio remoto utilizando Git. Según ese contexto, ¿qué comandos de Git puede usar para ejecutar estas acciones?
