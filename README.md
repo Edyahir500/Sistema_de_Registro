@@ -94,3 +94,25 @@ Permite cambiar de rama y ademas agregar un rama nueva, con los siguientes coman
 Permite desplzarte a la rama master
 ```git switch - ```
 
+## Ejemplo: ##
+
+Una persona que actúa como desarrolladora front-end concluyó importantes implementaciones en el desarrollo del proyecto en el cual está trabajando y necesita verificar los cambios realizados, agregarlos en su repositorio local, guardarlos y después enviar al repositorio remoto utilizando Git. Según ese contexto, ¿qué comandos de Git puede usar para ejecutar estas acciones?
+
+Siguiendo los siguientes pasos:
+
+1. Verificar los cambios que realizo
+        git diff
+
+2. Verficar los cambios realizados
+        Git status
+
+3. Agregar los cambios
+        git add .
+
+4. Agregar los cambios a su repositorio local
+        git commit -m "Actualización"
+
+5. Enviar cambios al repositorio remoto
+        git push
+
+
