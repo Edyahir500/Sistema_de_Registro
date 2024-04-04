@@ -8,7 +8,7 @@ Para ejecutar el sistema, debes poner:
 No existe regla especifica para hacer commits, pero se recomienda usar el imperativo al comienzo de los commits.
 Sin embargo cada empresa puede hacer uso de una sintaxix estándar.
 
-# Git clone #
+## Git clone ##
 
 El comando git clone es usado para seleccionar un repositorio existente y crear un clon o una copia de él en un repositorio local.
 
@@ -24,7 +24,7 @@ También puedes configurar el git clone y clonar el repositorio desde una branch
 
 ```git clone -branch new_feature <repositorio>```
 
-# Git log #
+## Git log ##
 
 Git log te ayuda a verificar el historial de cambios, los mensajes de commit, el nombre de la persona autora y otras informaciones sobre el proyecto.
 
@@ -46,44 +46,44 @@ Formatear la visualización de las informaciones del commit, este a su vez trae 
 
 ``` git log --pretty="format:%h %s" ``` 
 
-# Git pull #
+## Git pull ##
 
 Bajar los cambios realizados en el repositorio remoto al repositorio local
 
 ``` git pull" ``` 
 
-# Git add #
+## Git add ##
 
 Agregar las nuevas modificaciones realizadas en el código al repositorio local.
 
 ``` git add ." ``` 
 
-# Git commit #
+## Git commit ##
 
 Almacenar los cambios que ha realizado en el repositorio local.
 
 ``` git commit -m "name" ``` 
 
-# Git push #
+## Git push ##
 
 Enviar los cambios realizados en el repositorio local al repositorio remoto.
 
 ``` git push ``` 
 
-# Git diff #
+## Git diff ##
 
 Permite observar los cambios entre codigo anterior y posterior antes de agregar la actualización de forma local.  
 
 ``` git diff ``` 
 
-# Git restore #
+## Git restore ##
 
 Permite regresar a un commit anterior (restauración).
 Ej. Al no ser aprobados por el encargado los commit ingresados por el programador pueden ser restaurados y volver al commit correcto, donde el código esta aprobado.
 
 ```git restore --source id name```
 
-# Git switch #
+## Git switch ##
 
 Permite cambiar de rama y ademas agregar un rama nueva, con los siguientes comandos
 
@@ -92,6 +92,7 @@ Permite cambiar de rama y ademas agregar un rama nueva, con los siguientes coman
 ```git switch name ```
 
 Permite desplzarte a la rama master
+
 ```git switch - ```
 
 ## Ejemplo: ##
@@ -101,18 +102,18 @@ Una persona que actúa como desarrolladora front-end concluyó importantes imple
 Siguiendo los siguientes pasos:
 
 1. Verificar los cambios que realizo
-        git diff
+    ```git diff ```
 
 2. Verficar los cambios realizados
-        Git status
+    ```Git status```
 
 3. Agregar los cambios
-        git add .
+    ```git add . ```
 
 4. Agregar los cambios a su repositorio local
-        git commit -m "Actualización"
+    ```git commit -m "Actualización"```
 
 5. Enviar cambios al repositorio remoto
-        git push
+    ```git push```
 
 
